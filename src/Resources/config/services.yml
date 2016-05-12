@@ -1,0 +1,8 @@
+services:
+
+    phmlabs.twig.multi_include:
+        class: phmLabs\MultiIncludeBundle\Twig\MultiIncludeExtension
+        arguments: [ @service_container ]
+        public: false
+        tags:
+            - { name: twig.extension }

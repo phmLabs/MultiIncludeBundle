@@ -1,0 +1,9 @@
+{
+  "name": "phmLabs/multiincludebundle",
+  "description": "include multiple twig templates at once",
+  "autoload": {
+    "psr-4": {
+      "phmLabs\\MultiIncludeBundle\\": "src/"
+    }
+  }
+}
